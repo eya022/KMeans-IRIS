@@ -1,10 +1,10 @@
 # TP K-Means - Clustering Non Supervisé
 
-## 📋 Description
+## Description
 
 Ce projet contient l'implémentation complète du TP sur l'algorithme K-Means appliqué au célèbre dataset Iris. Il s'agit d'un travail pratique de Data Mining réalisé dans le cadre du cours à la FST-Dep Info.
 
-## 🎯 Objectifs du TP
+## Objectifs du TP
 
 - Comprendre le fonctionnement de l'algorithme K-Means
 - Appliquer le clustering sur des données réelles (Dataset Iris)
@@ -12,7 +12,7 @@ Ce projet contient l'implémentation complète du TP sur l'algorithme K-Means ap
 - Évaluer la qualité du clustering
 - Déterminer le nombre optimal de clusters
 
-## 📊 Dataset
+## Dataset
 
 Le dataset **Iris** contient 150 observations de fleurs décrites par 4 variables :
 - Longueur du sépale (cm)
@@ -22,7 +22,7 @@ Le dataset **Iris** contient 150 observations de fleurs décrites par 4 variable
 
 3 espèces d'iris : Setosa, Versicolor, Virginica
 
-## 🚀 Installation
+## Installation
 
 ### Prérequis
 
@@ -41,25 +41,6 @@ Ou utilisez le fichier requirements.txt :
 pip install -r requirements.txt
 ```
 
-## 📁 Structure du projet
-
-```
-TP-KMeans/
-│
-├── tp_kmeans_windows.py          # Script principal (compatible Windows)
-├── tp_kmeans.py                  # Script principal (compatible Linux/Mac)
-├── tp_kmeans_reponses.docx       # Réponses aux questions théoriques
-├── qcm_kmeans_reponses.docx      # QCM de validation avec corrections
-├── TP_K-Means.pdf                # Énoncé du TP
-├── requirements.txt              # Liste des dépendances
-├── README.md                     # Ce fichier
-│
-└── resultats_kmeans/             # Dossier généré automatiquement
-    ├── visualisation_clusters.png
-    ├── elbow_method.png
-    ├── silhouette_method.png
-    └── iris_clusters.csv
-```
 
 ## 💻 Utilisation
 
@@ -123,23 +104,6 @@ Le script va :
 - Comparaison avec les vraies espèces
 - Discussion des limites de K-Means
 
-## 📚 Questions traitées
-
-Le document `tp_kmeans_reponses.docx` contient les réponses détaillées à :
-- Questions de réflexion théorique
-- Questions de compréhension du dataset
-- Questions sur l'implémentation Python
-- Questions sur la visualisation
-- Questions sur l'évaluation et l'interprétation
-
-## ✅ QCM de validation
-
-Le fichier `qcm_kmeans_reponses.docx` contient 10 questions à choix multiples avec les corrections pour valider vos acquis sur :
-- Le principe de K-Means
-- L'initialisation et la convergence
-- Les métriques d'évaluation
-- Les avantages et limites de l'algorithme
-
 ## 🛠️ Technologies utilisées
 
 - **Python 3.13**
@@ -148,13 +112,13 @@ Le fichier `qcm_kmeans_reponses.docx` contient 10 questions à choix multiples a
 - **Matplotlib** : Visualisation
 - **Scikit-learn** : Algorithme K-Means et métriques
 
-## 👨‍🏫 Auteur
+##  Auteur
 
-**Mohamed Lassoued**  
-FST-Dep Info - Data Mining  
-Octobre 2024
+**Eya Jemai**  
+  
 
-## 📝 Licence
+
+## Licence
 
 Ce projet est à usage éducatif dans le cadre du cours de Data Mining.
 
